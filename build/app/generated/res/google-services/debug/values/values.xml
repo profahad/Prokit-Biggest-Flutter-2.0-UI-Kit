@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">390414775798-2slj3p1m1bfadaaijvcqjpue8ijrkg6v.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://prokit-flutter.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">390414775798</string>
+    <string name="google_api_key" translatable="false">AIzaSyC1vaXshOIow78NIncu3DhMkKt_DjbCuAE</string>
+    <string name="google_app_id" translatable="false">1:390414775798:android:5028b0288e73a744aa03d7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC1vaXshOIow78NIncu3DhMkKt_DjbCuAE</string>
+    <string name="google_storage_bucket" translatable="false">prokit-flutter.appspot.com</string>
+    <string name="project_id" translatable="false">prokit-flutter</string>
+</resources>

@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/drawable_app_icon2.webp.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/drawable/app_icon2.webp"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/drawable_app_icon.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/drawable/app_icon.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/drawable/launch_background.xml"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

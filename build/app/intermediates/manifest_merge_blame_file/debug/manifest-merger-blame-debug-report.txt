@@ -1,0 +1,636 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iqonic.prokitflutter"
+4    android:versionCode="25"
+5    android:versionName="6.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:4:5-67
+14-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:5:5-79
+15-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:5:22-76
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:6:5-79
+16-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:6:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:7:5-81
+17-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+18-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:8:5-72
+18-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:8:22-69
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+19-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+20-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+21
+22    <queries>
+22-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+23        <intent>
+23-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+24            <action android:name="android.intent.action.GET_CONTENT" />
+24-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+24-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+25
+26            <data android:mimeType="*/*" />
+26-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
+26-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-41
+27        </intent>
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+30-->[:local_auth] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/local_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-74
+30-->[:local_auth] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/local_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-71
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+31-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+31-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+32    <uses-permission android:name="android.permission.VIBRATE" />
+32-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+32-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+33    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+33-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+33-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/dfd739ab4eef8d8cc8998d6468c37512/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+34-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/dfd739ab4eef8d8cc8998d6468c37512/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:22-65
+35
+36    <uses-feature
+36-->[com.google.android.gms:play-services-maps:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7c5bc23ecafb14faba8d71d86ebb14de/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+37        android:glEsVersion="0x00020000"
+37-->[com.google.android.gms:play-services-maps:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7c5bc23ecafb14faba8d71d86ebb14de/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+38        android:required="true" />
+38-->[com.google.android.gms:play-services-maps:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7c5bc23ecafb14faba8d71d86ebb14de/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+39
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Android package visibility setting -->
+40-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+41    <queries>
+41-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+42
+43        <!-- For browser content -->
+44        <intent>
+44-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+45            <action android:name="android.intent.action.VIEW" />
+46
+47            <category android:name="android.intent.category.BROWSABLE" />
+48
+49            <data android:scheme="https" />
+49-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
+50        </intent>
+51        <!-- End of browser content -->
+52        <!-- For CustomTabsService -->
+53        <intent>
+53-->[:file_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+54            <action android:name="android.support.customtabs.action.CustomTabsService" />
+55        </intent>
+56        <!-- End of CustomTabsService -->
+57    </queries>
+58
+59    <application
+59-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:10:5-43:19
+60        android:name="io.flutter.app.FlutterApplication"
+60-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:11:9-57
+61        android:allowBackup="true"
+61-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:12:9-35
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.3.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/6dfac77d1bf42a61b6708c80a9c2cb36/core-1.3.2/AndroidManifest.xml:24:18-86
+63        android:debuggable="true"
+64        android:fullBackupContent="true"
+64-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:13:9-41
+65        android:icon="@mipmap/ic_launcher"
+65-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:14:9-43
+66        android:label="ProKit Flutter"
+66-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:15:9-39
+67        android:usesCleartextTraffic="true" >
+67-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:16:9-44
+68        <activity
+68-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:17:9-28:20
+69            android:name="com.iqonic.prokit_flutter.MainActivity"
+69-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:18:13-41
+70            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+70-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:19:13-163
+71            android:hardwareAccelerated="true"
+71-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:20:13-47
+72            android:launchMode="singleTop"
+72-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:21:13-43
+73            android:theme="@style/LaunchTheme"
+73-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:22:13-47
+74            android:windowSoftInputMode="adjustResize" >
+74-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:23:13-55
+75            <intent-filter>
+75-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:24:13-27:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:25:17-69
+76-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:25:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:26:17-77
+78-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:26:27-74
+79            </intent-filter>
+80        </activity>
+81
+82        <meta-data
+82-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:30:9-32:52
+83            android:name="com.google.android.gms.ads.APPLICATION_ID"
+83-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:31:13-69
+84            android:value="@string/abmob_app_id" />
+84-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:32:13-49
+85
+86        <!--
+87             Don't delete the meta-data below.
+88             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+89        -->
+90        <meta-data
+90-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:36:9-38:33
+91            android:name="flutterEmbedding"
+91-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:37:13-44
+92            android:value="2" />
+92-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:38:13-30
+93        <meta-data
+93-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:39:9-41:55
+94            android:name="com.google.android.geo.API_KEY"
+94-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:40:13-58
+95            android:value="@string/google_maps_key" />
+95-->/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/android/app/src/main/AndroidManifest.xml:41:13-52
+96
+97        <service
+97-->[:firebase_crashlytics] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+98            android:name="com.google.firebase.components.ComponentDiscoveryService"
+98-->[:firebase_crashlytics] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+99            android:directBootAware="true"
+99-->[com.google.firebase:firebase-common:20.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/ba94e93e55bb5d181f5a5f4296ab4b1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+100            android:exported="false" >
+100-->[com.google.firebase:firebase-crashlytics:18.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/31a0505d7667c0e6a5a307ccafbf7ef1/jetified-firebase-crashlytics-18.0.0/AndroidManifest.xml:17:13-37
+101            <meta-data
+101-->[:firebase_crashlytics] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+102-->[:firebase_crashlytics] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:firebase_crashlytics] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+104            <meta-data
+104-->[:firebase_core] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+105-->[:firebase_core] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:firebase_core] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-crashlytics:18.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/31a0505d7667c0e6a5a307ccafbf7ef1/jetified-firebase-crashlytics-18.0.0/AndroidManifest.xml:18:13-20:85
+108                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+108-->[com.google.firebase:firebase-crashlytics:18.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/31a0505d7667c0e6a5a307ccafbf7ef1/jetified-firebase-crashlytics-18.0.0/AndroidManifest.xml:19:17-115
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-crashlytics:18.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/31a0505d7667c0e6a5a307ccafbf7ef1/jetified-firebase-crashlytics-18.0.0/AndroidManifest.xml:20:17-82
+110            <meta-data
+110-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/dfd739ab4eef8d8cc8998d6468c37512/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+111                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+111-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/dfd739ab4eef8d8cc8998d6468c37512/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/dfd739ab4eef8d8cc8998d6468c37512/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-installations:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b8261a2c2ae8ce4fee28b4d30f75fb0a/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+114                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+114-->[com.google.firebase:firebase-installations:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b8261a2c2ae8ce4fee28b4d30f75fb0a/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-installations:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b8261a2c2ae8ce4fee28b4d30f75fb0a/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+116        </service>
+117
+118        <provider
+118-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+119            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+119-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+120            android:authorities="com.iqonic.prokitflutter.flutter.image_provider"
+120-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+121            android:exported="false"
+121-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+122            android:grantUriPermissions="true" >
+122-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+123            <meta-data
+123-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+124                android:name="android.support.FILE_PROVIDER_PATHS"
+124-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+125                android:resource="@xml/flutter_image_picker_file_paths" />
+125-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+126        </provider>
+127
+128        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+128-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-106
+128-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-103
+129        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+129-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-20:20
+129-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-107
+130            <intent-filter>
+130-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-19:29
+131                <action android:name="android.intent.action.BOOT_COMPLETED" />
+131-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-79
+131-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:25-76
+132                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+132-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-84
+132-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:25-81
+133                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+133-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-82
+133-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-79
+134                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+134-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-82
+134-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:25-79
+135            </intent-filter>
+136        </receiver>
+137
+138        <meta-data
+138-->[:google_mobile_ads] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-12:36
+139            android:name="io.flutter.embedded_views_preview"
+139-->[:google_mobile_ads] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-61
+140            android:value="true" />
+140-->[:google_mobile_ads] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-33
+141
+142        <activity
+142-->[:url_launcher] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+143            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+143-->[:url_launcher] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+144            android:exported="false"
+144-->[:url_launcher] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+145            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+145-->[:url_launcher] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+146
+147        <provider
+147-->[:share] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+148            android:name="io.flutter.plugins.share.ShareFileProvider"
+148-->[:share] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-70
+149            android:authorities="com.iqonic.prokitflutter.flutter.share_provider"
+149-->[:share] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+150            android:exported="false"
+150-->[:share] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+151            android:grantUriPermissions="true" >
+151-->[:share] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+152            <meta-data
+152-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+153                android:name="android.support.FILE_PROVIDER_PATHS"
+153-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+154                android:resource="@xml/flutter_share_file_paths" />
+154-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+155        </provider>
+156        <provider
+156-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:12:9-20:20
+157            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+157-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:13:13-68
+158            android:authorities="com.iqonic.prokitflutter.fishbunfileprovider"
+158-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:14:13-71
+159            android:exported="false"
+159-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:15:13-37
+160            android:grantUriPermissions="true" >
+160-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:16:13-47
+161            <meta-data
+161-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+162                android:name="android.support.FILE_PROVIDER_PATHS"
+162-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+163                android:resource="@xml/provider_paths" />
+163-->[:image_picker] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+164        </provider>
+165
+166        <activity
+166-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:22:9-25:51
+167            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+167-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:23:13-71
+168            android:label="@string/album"
+168-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:24:13-42
+169            android:theme="@style/FishBunTheme" />
+169-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:25:13-48
+170        <activity
+170-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:26:9-28:51
+171            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+171-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:27:13-73
+172            android:theme="@style/FishBunTheme" />
+172-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:28:13-48
+173        <activity
+173-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:29:9-31:54
+174            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+174-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:30:13-73
+175            android:theme="@style/DetailViewTheme" />
+175-->[com.sangcomz:FishBun:0.11.2] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/040894a85a2f6ee23f515bf62237e358/jetified-FishBun-0.11.2/AndroidManifest.xml:31:13-51
+176
+177        <provider
+177-->[com.google.firebase:firebase-common:20.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/ba94e93e55bb5d181f5a5f4296ab4b1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+178            android:name="com.google.firebase.provider.FirebaseInitProvider"
+178-->[com.google.firebase:firebase-common:20.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/ba94e93e55bb5d181f5a5f4296ab4b1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+179            android:authorities="com.iqonic.prokitflutter.firebaseinitprovider"
+179-->[com.google.firebase:firebase-common:20.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/ba94e93e55bb5d181f5a5f4296ab4b1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+180            android:directBootAware="true"
+180-->[com.google.firebase:firebase-common:20.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/ba94e93e55bb5d181f5a5f4296ab4b1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+181            android:exported="false"
+181-->[com.google.firebase:firebase-common:20.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/ba94e93e55bb5d181f5a5f4296ab4b1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+182            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+182-->[com.google.firebase:firebase-common:20.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/ba94e93e55bb5d181f5a5f4296ab4b1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+183        <uses-library
+183-->[com.google.android.gms:play-services-maps:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7c5bc23ecafb14faba8d71d86ebb14de/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+184            android:name="org.apache.http.legacy"
+184-->[com.google.android.gms:play-services-maps:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7c5bc23ecafb14faba8d71d86ebb14de/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+185            android:required="false" />
+185-->[com.google.android.gms:play-services-maps:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7c5bc23ecafb14faba8d71d86ebb14de/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+186
+187        <activity
+187-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/147e06b740327f4df6e351ce6374fd49/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+188            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+188-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/147e06b740327f4df6e351ce6374fd49/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+189            android:excludeFromRecents="true"
+189-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/147e06b740327f4df6e351ce6374fd49/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+190            android:exported="false"
+190-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/147e06b740327f4df6e351ce6374fd49/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+191            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+191-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/147e06b740327f4df6e351ce6374fd49/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+192        <!--
+193            Service handling Google Sign-In user revocation. For apps that do not integrate with
+194            Google Sign-In, this service will never be started.
+195        -->
+196        <service
+196-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/147e06b740327f4df6e351ce6374fd49/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+197            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+197-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/147e06b740327f4df6e351ce6374fd49/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+198            android:exported="true"
+198-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/147e06b740327f4df6e351ce6374fd49/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+199            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+199-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/147e06b740327f4df6e351ce6374fd49/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+200
+201        <activity
+201-->[com.google.android.gms:play-services-base:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f997a6c429431d87a39202da8fc60d3c/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+202            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+202-->[com.google.android.gms:play-services-base:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f997a6c429431d87a39202da8fc60d3c/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+203            android:exported="false"
+203-->[com.google.android.gms:play-services-base:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f997a6c429431d87a39202da8fc60d3c/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+204-->[com.google.android.gms:play-services-base:17.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f997a6c429431d87a39202da8fc60d3c/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+205
+206        <receiver
+206-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+207            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+207-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+208            android:enabled="true"
+208-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+209            android:exported="false" >
+209-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+210        </receiver>
+211
+212        <service
+212-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+213            android:name="com.google.android.gms.measurement.AppMeasurementService"
+213-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+214            android:enabled="true"
+214-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+215            android:exported="false" />
+215-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+216        <service
+216-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+217            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+217-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+218            android:enabled="true"
+218-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+219            android:exported="false"
+219-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+220            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+220-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/b699239b5d9c14f39c6639040333cda7/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+221        <activity
+221-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:48:9-52:64
+222            android:name="com.google.android.gms.ads.AdActivity"
+222-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:49:13-65
+223            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+223-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:50:13-122
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:51:13-37
+225            android:theme="@android:style/Theme.Translucent" />
+225-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:52:13-61
+226
+227        <provider
+227-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:54:9-58:39
+228            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+228-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:55:13-76
+229            android:authorities="com.iqonic.prokitflutter.mobileadsinitprovider"
+229-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:56:13-73
+230            android:exported="false"
+230-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:57:13-37
+231            android:initOrder="100" />
+231-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:58:13-36
+232
+233        <service
+233-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:60:9-63:40
+234            android:name="com.google.android.gms.ads.AdService"
+234-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:61:13-64
+235            android:enabled="true"
+235-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:62:13-35
+236            android:exported="false" />
+236-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/7795d2a47602fddf5353376d863b632a/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:63:13-37
+237
+238        <meta-data
+238-->[com.google.android.gms:play-services-basement:17.3.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/fb092e9478c89220fa884010ecf461ab/jetified-play-services-basement-17.3.0/AndroidManifest.xml:23:9-25:69
+239            android:name="com.google.android.gms.version"
+239-->[com.google.android.gms:play-services-basement:17.3.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/fb092e9478c89220fa884010ecf461ab/jetified-play-services-basement-17.3.0/AndroidManifest.xml:24:13-58
+240            android:value="@integer/google_play_services_version" />
+240-->[com.google.android.gms:play-services-basement:17.3.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/fb092e9478c89220fa884010ecf461ab/jetified-play-services-basement-17.3.0/AndroidManifest.xml:25:13-66
+241
+242        <provider
+242-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:30:9-36:35
+243            android:name="androidx.work.impl.WorkManagerInitializer"
+243-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:31:13-69
+244            android:authorities="com.iqonic.prokitflutter.workmanager-init"
+244-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:32:13-68
+245            android:directBootAware="false"
+245-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:33:13-44
+246            android:exported="false"
+246-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:34:13-37
+247            android:multiprocess="true" />
+247-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:35:13-40
+248
+249        <service
+249-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:38:9-43:35
+250            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+250-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:39:13-88
+251            android:directBootAware="false"
+251-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:40:13-44
+252            android:enabled="@bool/enable_system_alarm_service_default"
+252-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:41:13-72
+253            android:exported="false" />
+253-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:42:13-37
+254        <service
+254-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:44:9-50:35
+255            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+255-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:45:13-84
+256            android:directBootAware="false"
+256-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:46:13-44
+257            android:enabled="@bool/enable_system_job_service_default"
+257-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:47:13-70
+258            android:exported="true"
+258-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:48:13-36
+259            android:permission="android.permission.BIND_JOB_SERVICE" />
+259-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:49:13-69
+260
+261        <receiver
+261-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:52:9-57:35
+262            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+262-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:53:13-88
+263            android:directBootAware="false"
+263-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:54:13-44
+264            android:enabled="true"
+264-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:55:13-35
+265            android:exported="false" />
+265-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:56:13-37
+266        <receiver
+266-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:58:9-68:20
+267            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+267-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:59:13-106
+268            android:directBootAware="false"
+268-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:60:13-44
+269            android:enabled="false"
+269-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:61:13-36
+270            android:exported="false" >
+270-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:62:13-37
+271            <intent-filter>
+271-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:64:13-67:29
+272                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+272-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:65:17-87
+272-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:65:25-84
+273                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+273-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:66:17-90
+273-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:66:25-87
+274            </intent-filter>
+275        </receiver>
+276        <receiver
+276-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:69:9-79:20
+277            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+277-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:70:13-104
+278            android:directBootAware="false"
+278-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:71:13-44
+279            android:enabled="false"
+279-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:72:13-36
+280            android:exported="false" >
+280-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:73:13-37
+281            <intent-filter>
+281-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:75:13-78:29
+282                <action android:name="android.intent.action.BATTERY_OKAY" />
+282-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:76:17-77
+282-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:76:25-74
+283                <action android:name="android.intent.action.BATTERY_LOW" />
+283-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:77:17-76
+283-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:77:25-73
+284            </intent-filter>
+285        </receiver>
+286        <receiver
+286-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:80:9-90:20
+287            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+287-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:81:13-104
+288            android:directBootAware="false"
+288-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:82:13-44
+289            android:enabled="false"
+289-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:83:13-36
+290            android:exported="false" >
+290-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:84:13-37
+291            <intent-filter>
+291-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:86:13-89:29
+292                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+292-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:87:17-83
+292-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:87:25-80
+293                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+293-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:88:17-82
+293-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:88:25-79
+294            </intent-filter>
+295        </receiver>
+296        <receiver
+296-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:91:9-100:20
+297            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+297-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:92:13-103
+298            android:directBootAware="false"
+298-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:93:13-44
+299            android:enabled="false"
+299-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:94:13-36
+300            android:exported="false" >
+300-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:95:13-37
+301            <intent-filter>
+301-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:97:13-99:29
+302                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+302-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:98:17-79
+302-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:98:25-76
+303            </intent-filter>
+304        </receiver>
+305        <receiver
+305-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:101:9-112:20
+306            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+306-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:102:13-88
+307            android:directBootAware="false"
+307-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:103:13-44
+308            android:enabled="false"
+308-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:104:13-36
+309            android:exported="false" >
+309-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:105:13-37
+310            <intent-filter>
+310-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:107:13-111:29
+311                <action android:name="android.intent.action.BOOT_COMPLETED" />
+311-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-79
+311-->[:flutter_local_notifications] /Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:25-76
+312                <action android:name="android.intent.action.TIME_SET" />
+312-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:109:17-73
+312-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:109:25-70
+313                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+313-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:110:17-81
+313-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:110:25-78
+314            </intent-filter>
+315        </receiver>
+316        <receiver
+316-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:113:9-122:20
+317            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+317-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:114:13-99
+318            android:directBootAware="false"
+318-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:115:13-44
+319            android:enabled="@bool/enable_system_alarm_service_default"
+319-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:116:13-72
+320            android:exported="false" >
+320-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:117:13-37
+321            <intent-filter>
+321-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:119:13-121:29
+322                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+322-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:120:17-98
+322-->[androidx.work:work-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/aa8a2e38e700bbad358a86408ee58238/work-runtime-2.1.0/AndroidManifest.xml:120:25-95
+323            </intent-filter>
+324        </receiver>
+325
+326        <service
+326-->[androidx.room:room-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/c6a3ef7886b712ab76b3bb2ffa820b6f/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+327            android:name="androidx.room.MultiInstanceInvalidationService"
+327-->[androidx.room:room-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/c6a3ef7886b712ab76b3bb2ffa820b6f/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+328            android:exported="false" />
+328-->[androidx.room:room-runtime:2.1.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/c6a3ef7886b712ab76b3bb2ffa820b6f/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+329        <service
+329-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/9cd0c3f8c7f5bbd4fb3c704f2a619c21/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+330            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+330-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/9cd0c3f8c7f5bbd4fb3c704f2a619c21/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+331            android:exported="false" >
+331-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/9cd0c3f8c7f5bbd4fb3c704f2a619c21/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+332            <meta-data
+332-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/9cd0c3f8c7f5bbd4fb3c704f2a619c21/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+333                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+333-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/9cd0c3f8c7f5bbd4fb3c704f2a619c21/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+334                android:value="cct" />
+334-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/9cd0c3f8c7f5bbd4fb3c704f2a619c21/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+335        </service>
+336        <service
+336-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f5839b82dacaf39cf72ca0f7ce4b2097/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+337            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+337-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f5839b82dacaf39cf72ca0f7ce4b2097/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+338            android:exported="false"
+338-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f5839b82dacaf39cf72ca0f7ce4b2097/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+339            android:permission="android.permission.BIND_JOB_SERVICE" >
+339-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f5839b82dacaf39cf72ca0f7ce4b2097/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+340        </service>
+341
+342        <receiver
+342-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f5839b82dacaf39cf72ca0f7ce4b2097/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+343            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+343-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f5839b82dacaf39cf72ca0f7ce4b2097/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+344            android:exported="false" />
+344-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/f5839b82dacaf39cf72ca0f7ce4b2097/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+345    </application>
+346
+347</manifest>

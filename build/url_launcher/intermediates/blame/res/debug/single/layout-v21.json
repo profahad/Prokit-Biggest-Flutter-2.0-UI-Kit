@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/2864d247bdeee88f07c00a8061f479c1/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/2864d247bdeee88f07c00a8061f479c1/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/2864d247bdeee88f07c00a8061f479c1/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/2864d247bdeee88f07c00a8061f479c1/core-1.1.0/res/layout-v21/notification_action.xml"
+    }
+]

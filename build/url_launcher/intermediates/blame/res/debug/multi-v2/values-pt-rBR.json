@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "/Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/2864d247bdeee88f07c00a8061f479c1/core-1.1.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Volumes/Transdata/PlayGround/Flutter/Prokit-Biggest-Flutter-2.0-UI-Kit-master/build/url_launcher/intermediates/res/merged/debug/values-pt-rBR/values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "/Users/muhammadfahad/.gradle/caches/transforms-2/files-2.1/2864d247bdeee88f07c00a8061f479c1/core-1.1.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
